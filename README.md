@@ -6,6 +6,77 @@ El sistema integra sensores de temperatura, humedad y peso, que permiten recopil
 Estos datos se transmiten de forma inalámbrica a la nube, donde son procesados y visualizados en una interfaz web y/o aplicación móvil. De esta manera, los apicultores pueden detectar cambios anormales —como variaciones bruscas de temperatura, humedad inadecuada o pérdida de peso— que podrían indicar problemas de salud, falta de alimento o riesgo de enjambrazón.
 
 El objetivo de SmartBee es facilitar una apicultura más eficiente, sostenible y basada en datos, reduciendo las visitas innecesarias al apiario, mejorando la productividad y contribuyendo a la conservación de las abejas.
+📦 Instalación y ejecución del proyecto
+Backend
+
+Instalar dependencias:
+
+npm install bcryptjs@^2.4.3
+npm install cors@^2.8.5
+npm install dotenv@^16.6.1
+npm install express@^4.21.2
+npm install express-rate-limit@^6.11.2
+npm install helmet@^7.2.0
+npm install jsonwebtoken@^9.0.2
+npm install mysql2@^3.14.1
+npm install --save-dev nodemon@^3.1.10
+
+
+Ejecutar:
+
+node server.js
+
+Frontend
+
+Instalar dependencias:
+
+npm install
+npm install @fortawesome/free-solid-svg-icons@^6.7.2
+npm install @fortawesome/react-fontawesome@^0.2.2
+npm install @testing-library/dom@^10.4.0
+npm install @testing-library/jest-dom@^6.6.3
+npm install @testing-library/react@^16.3.0
+npm install @testing-library/user-event@^13.5.0
+npm install axios@^1.10.0
+npm install chart.js@^4.5.0
+npm install lucide-react@^0.525.0
+npm install react@^19.1.0
+npm install react-chartjs-2@^5.3.0
+npm install react-dom@^19.1.0
+npm install react-router-dom@^7.7.1
+npm install react-scripts@5.0.1
+npm install web-vitals@^2.1.4
+npm install --save-dev @eslint/compat@^1.3.1
+npm install --save-dev @tailwindcss/postcss@^4.1.11
+npm install --save-dev autoprefixer@^10.4.21
+npm install --save-dev postcss@^8.5.6
+npm install --save-dev react-app-rewired@^2.2.1
+npm install --save-dev tailwindcss@^4.1.11
+
+
+Ejecutar:
+
+npm start
+
+Store & Alert
+
+Instalar dependencias:
+
+npm install
+npm install mqtt@^5.13.1
+npm install mysql2@^3.14.1
+npm install uuid@^11.1.0
+
+
+Ejecutar:
+
+node Store_and_Alert.js
+# o
+npm start
+
+#Arduino
+
+Para el apartado de los sensores de peso es necesario hacer una calibracion correcta.
 
 # Características principales:
 	•	Monitorización en tiempo real de temperatura, humedad y peso.
