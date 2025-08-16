@@ -1,5 +1,7 @@
 # SmartBee 🐝
 
+* Santo Tomas Chillan x Ingenieria en informatica x Tec Agricola *
+
 SmartBee es una plataforma IoT diseñada para la monitorización remota y en tiempo real de colmenas apícolas, orientada a optimizar la gestión y el cuidado de las abejas.
 El sistema integra sensores de temperatura, humedad y peso, que permiten recopilar datos clave sobre las condiciones internas de la colmena y el estado de la colonia.
 
@@ -92,4 +94,8 @@ Para el apartado de los sensores de peso es necesario hacer una calibracion corr
 ![IMG_1183](https://github.com/user-attachments/assets/c4168fdc-65d8-4565-8bb8-a3dc326848e6)
 
 ![IMG_1187](https://github.com/user-attachments/assets/a03a2196-50f8-4fcf-a96e-681a2edbbd22)
+
+![IMG_1196](https://github.com/user-attachments/assets/5b05ef5b-07a6-42a6-ba7e-44e9575b4cec)
+
+
 
